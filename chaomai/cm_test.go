@@ -8,9 +8,9 @@ import (
 func BenchmarkRedis_GetConn(b *testing.B) {
 
 	MyRed := chaomai.Redis{
-		Host:"m10578.mars.test.redis.ljnode.com",
+		Host:"xxx",
 		Port:"10578",
-		PassWord:"FafBf4bec4",
+		PassWord:"xxx",
 	}
 
 	b.ResetTimer()

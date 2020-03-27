@@ -10,9 +10,9 @@ import (
 
 func handlechaomai(w http.ResponseWriter, r *http.Request)  {
 	myRedis := &chaomai.Redis{
-		Host:"m10578.mars.test.redis.ljnode.com",
+		Host:"xx",
 		Port:"10578",
-		PassWord:"FafBf4bec4",
+		PassWord:"xx",
 	}
 
 	err := myRedis.GetConn()
